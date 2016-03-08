@@ -1,0 +1,267 @@
+{
+  "field_bool": true,
+  "field_bool_false": false,
+  "field_bool_true": true,
+  "field_byte": -100,
+  "field_byte_negative_0x80": -128,
+  "field_ubyte": 200,
+  "field_ubyte_0xFF": 255,
+  "field_short": -10000,
+  "field_short_negative_0x8000": -32768,
+  "field_ushort": 20000,
+  "field_ushort_0xFFFF": 65535,
+  "field_int": -10000000,
+  "field_int_negative_0x80000000": -2147483648,
+  "field_uint": 20000000,
+  "field_uint_0xFFFFFFFF": 4294967295,
+  "field_long": {
+    "low": 0,
+    "high": 0
+  },
+  "field_long_negative_0x8000000000000000": {
+    "low": 0,
+    "high": -2147483648
+  },
+  "field_ulong": {
+    "low": 0,
+    "high": 0
+  },
+  "field_ulong_0xFFFFFFFFFFFFFFFF": {
+    "low": 4294967295,
+    "high": 4294967295
+  },
+  "field_float": 2.7182817459106445,
+  "field_float_pi": 3.14159265359,
+  "field_double": 2.718281828459045,
+  "field_double_pi": 3.14159265359,
+  "field_enum": "SECOND",
+  "field_enum_second": "SECOND",
+  "field_string": "text",
+  "field_struct": {
+    "field_bool": false,
+    "field_byte": -100,
+    "field_short": -10000,
+    "field_int": -10000000,
+    "field_float": 2.7182817459106445,
+    "field_double": 2.718281828459045,
+    "field_enum": "SECOND",
+    "field_nested": {
+      "x": 1.5,
+      "y": -0.5
+    }
+  },
+  "field_example": {
+    "field_bool": false,
+    "field_bool_false": false,
+    "field_bool_true": true,
+    "field_byte": 0,
+    "field_byte_negative_0x80": -128,
+    "field_ubyte": 0,
+    "field_ubyte_0xFF": 255,
+    "field_short": 0,
+    "field_short_negative_0x8000": -32768,
+    "field_ushort": 0,
+    "field_ushort_0xFFFF": 65535,
+    "field_int": 0,
+    "field_int_negative_0x80000000": -2147483648,
+    "field_uint": 0,
+    "field_uint_0xFFFFFFFF": 4294967295,
+    "field_long": {
+      "low": 0,
+      "high": 0
+    },
+    "field_long_negative_0x8000000000000000": {
+      "low": 0,
+      "high": -2147483648
+    },
+    "field_ulong": {
+      "low": 0,
+      "high": 0
+    },
+    "field_ulong_0xFFFFFFFFFFFFFFFF": {
+      "low": 4294967295,
+      "high": 4294967295
+    },
+    "field_float": 0,
+    "field_float_pi": 3.14159265359,
+    "field_double": 0,
+    "field_double_pi": 3.14159265359,
+    "field_enum": "FIRST",
+    "field_enum_second": "SECOND",
+    "field_string": null,
+    "field_struct": null,
+    "field_example": null,
+    "field_bytes": [],
+    "field_shorts": [],
+    "field_ints": [],
+    "field_longs": [],
+    "field_floats": [],
+    "field_doubles": [],
+    "field_enums": [],
+    "field_strings": [],
+    "field_structs": [],
+    "field_examples": [],
+    "field_required": "field_required"
+  },
+  "field_bytes": [
+    101,
+    102,
+    103,
+    -101,
+    -102,
+    -103
+  ],
+  "field_shorts": [
+    10001,
+    10002,
+    10003,
+    -10001,
+    -10002,
+    -10003
+  ],
+  "field_ints": [
+    10000001,
+    10000002,
+    10000003,
+    -10000001,
+    -10000002,
+    -10000003
+  ],
+  "field_longs": [],
+  "field_floats": [
+    1.5,
+    -0.5
+  ],
+  "field_doubles": [
+    1.5,
+    -0.5
+  ],
+  "field_enums": [
+    "FIRST",
+    "SECOND"
+  ],
+  "field_strings": [
+    "a",
+    "b",
+    "c"
+  ],
+  "field_structs": [
+    {
+      "x": 1.5,
+      "y": -0.5
+    },
+    {
+      "x": -0.5,
+      "y": 1.5
+    }
+  ],
+  "field_examples": [
+    {
+      "field_bool": false,
+      "field_bool_false": false,
+      "field_bool_true": true,
+      "field_byte": 0,
+      "field_byte_negative_0x80": -128,
+      "field_ubyte": 0,
+      "field_ubyte_0xFF": 255,
+      "field_short": 0,
+      "field_short_negative_0x8000": -32768,
+      "field_ushort": 0,
+      "field_ushort_0xFFFF": 65535,
+      "field_int": 0,
+      "field_int_negative_0x80000000": -2147483648,
+      "field_uint": 0,
+      "field_uint_0xFFFFFFFF": 4294967295,
+      "field_long": {
+        "low": 0,
+        "high": 0
+      },
+      "field_long_negative_0x8000000000000000": {
+        "low": 0,
+        "high": -2147483648
+      },
+      "field_ulong": {
+        "low": 0,
+        "high": 0
+      },
+      "field_ulong_0xFFFFFFFFFFFFFFFF": {
+        "low": 4294967295,
+        "high": 4294967295
+      },
+      "field_float": 0,
+      "field_float_pi": 3.14159265359,
+      "field_double": 0,
+      "field_double_pi": 3.14159265359,
+      "field_enum": "FIRST",
+      "field_enum_second": "SECOND",
+      "field_string": null,
+      "field_struct": null,
+      "field_example": null,
+      "field_bytes": [],
+      "field_shorts": [],
+      "field_ints": [],
+      "field_longs": [],
+      "field_floats": [],
+      "field_doubles": [],
+      "field_enums": [],
+      "field_strings": [],
+      "field_structs": [],
+      "field_examples": [],
+      "field_required": "a"
+    },
+    {
+      "field_bool": false,
+      "field_bool_false": false,
+      "field_bool_true": true,
+      "field_byte": 0,
+      "field_byte_negative_0x80": -128,
+      "field_ubyte": 0,
+      "field_ubyte_0xFF": 255,
+      "field_short": 0,
+      "field_short_negative_0x8000": -32768,
+      "field_ushort": 0,
+      "field_ushort_0xFFFF": 65535,
+      "field_int": 0,
+      "field_int_negative_0x80000000": -2147483648,
+      "field_uint": 0,
+      "field_uint_0xFFFFFFFF": 4294967295,
+      "field_long": {
+        "low": 0,
+        "high": 0
+      },
+      "field_long_negative_0x8000000000000000": {
+        "low": 0,
+        "high": -2147483648
+      },
+      "field_ulong": {
+        "low": 0,
+        "high": 0
+      },
+      "field_ulong_0xFFFFFFFFFFFFFFFF": {
+        "low": 4294967295,
+        "high": 4294967295
+      },
+      "field_float": 0,
+      "field_float_pi": 3.14159265359,
+      "field_double": 0,
+      "field_double_pi": 3.14159265359,
+      "field_enum": "FIRST",
+      "field_enum_second": "SECOND",
+      "field_string": null,
+      "field_struct": null,
+      "field_example": null,
+      "field_bytes": [],
+      "field_shorts": [],
+      "field_ints": [],
+      "field_longs": [],
+      "field_floats": [],
+      "field_doubles": [],
+      "field_enums": [],
+      "field_strings": [],
+      "field_structs": [],
+      "field_examples": [],
+      "field_required": "b"
+    }
+  ],
+  "field_required": "field_required"
+}

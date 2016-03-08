@@ -1,0 +1,93 @@
+enum Enum : ubyte {
+  FIRST,
+  SECOND,
+}
+
+table A {}
+table B {}
+
+struct Nested {
+  x: float;
+  y: float;
+}
+
+struct Struct {
+  field_bool: bool;
+  field_byte: byte;
+  field_short: short;
+  field_int: int;
+  field_float: float;
+  field_double: double;
+  field_enum: Enum;
+  field_nested: Nested;
+}
+
+union Union {
+  A,
+  B,
+}
+
+table Example {
+  field_bool: bool;
+  field_bool_false: bool = false;
+  field_bool_true: bool = true;
+
+  field_byte: byte;
+  field_byte_negative_0x80: byte = 0x80;
+
+  field_ubyte: ubyte;
+  field_ubyte_0xFF: ubyte = 0xFF;
+
+  field_short: short;
+  field_short_negative_0x8000: short = 0x8000;
+
+  field_ushort: ushort;
+  field_ushort_0xFFFF: ushort = 0xFFFF;
+
+  field_int: int;
+  field_int_negative_0x80000000: int = 0x80000000;
+
+  field_uint: uint;
+  field_uint_0xFFFFFFFF: uint = 0xFFFFFFFF;
+
+  field_long: long;
+  field_long_negative_0x8000000000000000: long = 0x8000000000000000;
+
+  field_ulong: ulong;
+  field_ulong_0xFFFFFFFFFFFFFFFF: ulong = 0xFFFFFFFFFFFFFFFF;
+
+  field_float: float;
+  field_float_pi: float = 3.14159265359;
+
+  field_double: double;
+  field_double_pi: double = 3.14159265359;
+
+  field_enum: Enum;
+  field_enum_second: Enum = SECOND;
+
+  field_string: string;
+  field_struct: Struct;
+  field_example: Example;
+
+  field_bytes: [byte];
+  field_shorts: [short];
+  field_ints: [int];
+  field_longs: [long];
+  field_floats: [float];
+  field_doubles: [double];
+  field_enums: [Enum];
+  field_strings: [string];
+  field_structs: [Nested];
+  field_examples: [Example];
+
+  field_deprecated: string (deprecated);
+  field_required: string (required);
+
+  // TODO: Support unions
+  // field_union: Union;
+}
+
+root_type Example;
+
+file_identifier "EXAM";
+file_extension "example";

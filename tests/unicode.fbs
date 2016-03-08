@@ -1,0 +1,7 @@
+table Table {
+  text: string;
+  vector_tables: [Table];
+  vector_strings: [string];
+}
+
+root_type Table;

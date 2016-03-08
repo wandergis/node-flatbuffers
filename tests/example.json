@@ -1,0 +1,1397 @@
+{
+  "fileIdent": "EXAM",
+  "fileExt": "example",
+  "rootTable": {
+    "name": "Example",
+    "isStruct": false,
+    "minalign": 1,
+    "bytesize": 0,
+    "fields": [
+      {
+        "name": "field_bool",
+        "type": {
+          "baseType": "Bool",
+          "element": "None",
+          "index": -1
+        },
+        "id": 0,
+        "offset": 4,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": false
+      },
+      {
+        "name": "field_bool_false",
+        "type": {
+          "baseType": "Bool",
+          "element": "None",
+          "index": -1
+        },
+        "id": 1,
+        "offset": 6,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": false
+      },
+      {
+        "name": "field_bool_true",
+        "type": {
+          "baseType": "Bool",
+          "element": "None",
+          "index": -1
+        },
+        "id": 2,
+        "offset": 8,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": true
+      },
+      {
+        "name": "field_byte",
+        "type": {
+          "baseType": "Byte",
+          "element": "None",
+          "index": -1
+        },
+        "id": 3,
+        "offset": 10,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 0
+      },
+      {
+        "name": "field_byte_negative_0x80",
+        "type": {
+          "baseType": "Byte",
+          "element": "None",
+          "index": -1
+        },
+        "id": 4,
+        "offset": 12,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": -128
+      },
+      {
+        "name": "field_ubyte",
+        "type": {
+          "baseType": "UByte",
+          "element": "None",
+          "index": -1
+        },
+        "id": 5,
+        "offset": 14,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 0
+      },
+      {
+        "name": "field_ubyte_0xFF",
+        "type": {
+          "baseType": "UByte",
+          "element": "None",
+          "index": -1
+        },
+        "id": 6,
+        "offset": 16,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 255
+      },
+      {
+        "name": "field_short",
+        "type": {
+          "baseType": "Short",
+          "element": "None",
+          "index": -1
+        },
+        "id": 7,
+        "offset": 18,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 0
+      },
+      {
+        "name": "field_short_negative_0x8000",
+        "type": {
+          "baseType": "Short",
+          "element": "None",
+          "index": -1
+        },
+        "id": 8,
+        "offset": 20,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": -32768
+      },
+      {
+        "name": "field_ushort",
+        "type": {
+          "baseType": "UShort",
+          "element": "None",
+          "index": -1
+        },
+        "id": 9,
+        "offset": 22,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 0
+      },
+      {
+        "name": "field_ushort_0xFFFF",
+        "type": {
+          "baseType": "UShort",
+          "element": "None",
+          "index": -1
+        },
+        "id": 10,
+        "offset": 24,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 65535
+      },
+      {
+        "name": "field_int",
+        "type": {
+          "baseType": "Int",
+          "element": "None",
+          "index": -1
+        },
+        "id": 11,
+        "offset": 26,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 0
+      },
+      {
+        "name": "field_int_negative_0x80000000",
+        "type": {
+          "baseType": "Int",
+          "element": "None",
+          "index": -1
+        },
+        "id": 12,
+        "offset": 28,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": -2147483648
+      },
+      {
+        "name": "field_uint",
+        "type": {
+          "baseType": "UInt",
+          "element": "None",
+          "index": -1
+        },
+        "id": 13,
+        "offset": 30,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 0
+      },
+      {
+        "name": "field_uint_0xFFFFFFFF",
+        "type": {
+          "baseType": "UInt",
+          "element": "None",
+          "index": -1
+        },
+        "id": 14,
+        "offset": 32,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 4294967295
+      },
+      {
+        "name": "field_long",
+        "type": {
+          "baseType": "Long",
+          "element": "None",
+          "index": -1
+        },
+        "id": 15,
+        "offset": 34,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": {
+          "low": 0,
+          "high": 0
+        }
+      },
+      {
+        "name": "field_long_negative_0x8000000000000000",
+        "type": {
+          "baseType": "Long",
+          "element": "None",
+          "index": -1
+        },
+        "id": 16,
+        "offset": 36,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": {
+          "low": 0,
+          "high": -2147483648
+        }
+      },
+      {
+        "name": "field_ulong",
+        "type": {
+          "baseType": "ULong",
+          "element": "None",
+          "index": -1
+        },
+        "id": 17,
+        "offset": 38,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": {
+          "low": 0,
+          "high": 0
+        }
+      },
+      {
+        "name": "field_ulong_0xFFFFFFFFFFFFFFFF",
+        "type": {
+          "baseType": "ULong",
+          "element": "None",
+          "index": -1
+        },
+        "id": 18,
+        "offset": 40,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": {
+          "low": 4294967295,
+          "high": 4294967295
+        }
+      },
+      {
+        "name": "field_float",
+        "type": {
+          "baseType": "Float",
+          "element": "None",
+          "index": -1
+        },
+        "id": 19,
+        "offset": 42,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 0
+      },
+      {
+        "name": "field_float_pi",
+        "type": {
+          "baseType": "Float",
+          "element": "None",
+          "index": -1
+        },
+        "id": 20,
+        "offset": 44,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 3.14159265359
+      },
+      {
+        "name": "field_double",
+        "type": {
+          "baseType": "Double",
+          "element": "None",
+          "index": -1
+        },
+        "id": 21,
+        "offset": 46,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 0
+      },
+      {
+        "name": "field_double_pi",
+        "type": {
+          "baseType": "Double",
+          "element": "None",
+          "index": -1
+        },
+        "id": 22,
+        "offset": 48,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 3.14159265359
+      },
+      {
+        "name": "field_enum",
+        "type": {
+          "baseType": "UByte",
+          "element": "None",
+          "index": 0
+        },
+        "id": 23,
+        "offset": 50,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 0
+      },
+      {
+        "name": "field_enum_second",
+        "type": {
+          "baseType": "UByte",
+          "element": "None",
+          "index": 0
+        },
+        "id": 24,
+        "offset": 52,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": 1
+      },
+      {
+        "name": "field_string",
+        "type": {
+          "baseType": "String",
+          "element": "None",
+          "index": -1
+        },
+        "id": 25,
+        "offset": 54,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_struct",
+        "type": {
+          "baseType": "Obj",
+          "element": "None",
+          "index": 4
+        },
+        "id": 26,
+        "offset": 56,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_example",
+        "type": {
+          "baseType": "Obj",
+          "element": "None",
+          "index": 2
+        },
+        "id": 27,
+        "offset": 58,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_bytes",
+        "type": {
+          "baseType": "Vector",
+          "element": "Byte",
+          "index": -1
+        },
+        "id": 28,
+        "offset": 60,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_shorts",
+        "type": {
+          "baseType": "Vector",
+          "element": "Short",
+          "index": -1
+        },
+        "id": 29,
+        "offset": 62,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_ints",
+        "type": {
+          "baseType": "Vector",
+          "element": "Int",
+          "index": -1
+        },
+        "id": 30,
+        "offset": 64,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_longs",
+        "type": {
+          "baseType": "Vector",
+          "element": "Long",
+          "index": -1
+        },
+        "id": 31,
+        "offset": 66,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_floats",
+        "type": {
+          "baseType": "Vector",
+          "element": "Float",
+          "index": -1
+        },
+        "id": 32,
+        "offset": 68,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_doubles",
+        "type": {
+          "baseType": "Vector",
+          "element": "Double",
+          "index": -1
+        },
+        "id": 33,
+        "offset": 70,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_enums",
+        "type": {
+          "baseType": "Vector",
+          "element": "UByte",
+          "index": 0
+        },
+        "id": 34,
+        "offset": 72,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_strings",
+        "type": {
+          "baseType": "Vector",
+          "element": "String",
+          "index": -1
+        },
+        "id": 35,
+        "offset": 74,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_structs",
+        "type": {
+          "baseType": "Vector",
+          "element": "Obj",
+          "index": 3
+        },
+        "id": 36,
+        "offset": 76,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_examples",
+        "type": {
+          "baseType": "Vector",
+          "element": "Obj",
+          "index": 2
+        },
+        "id": 37,
+        "offset": 78,
+        "deprecated": false,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_deprecated",
+        "type": {
+          "baseType": "String",
+          "element": "None",
+          "index": -1
+        },
+        "id": 38,
+        "offset": 80,
+        "deprecated": true,
+        "required": false,
+        "key": false,
+        "default": null
+      },
+      {
+        "name": "field_required",
+        "type": {
+          "baseType": "String",
+          "element": "None",
+          "index": -1
+        },
+        "id": 39,
+        "offset": 82,
+        "deprecated": false,
+        "required": true,
+        "key": false,
+        "default": null
+      }
+    ]
+  },
+  "objects": [
+    {
+      "name": "A",
+      "isStruct": false,
+      "minalign": 1,
+      "bytesize": 0,
+      "fields": []
+    },
+    {
+      "name": "B",
+      "isStruct": false,
+      "minalign": 1,
+      "bytesize": 0,
+      "fields": []
+    },
+    {
+      "name": "Example",
+      "isStruct": false,
+      "minalign": 1,
+      "bytesize": 0,
+      "fields": [
+        {
+          "name": "field_bool",
+          "type": {
+            "baseType": "Bool",
+            "element": "None",
+            "index": -1
+          },
+          "id": 0,
+          "offset": 4,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": false
+        },
+        {
+          "name": "field_bool_false",
+          "type": {
+            "baseType": "Bool",
+            "element": "None",
+            "index": -1
+          },
+          "id": 1,
+          "offset": 6,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": false
+        },
+        {
+          "name": "field_bool_true",
+          "type": {
+            "baseType": "Bool",
+            "element": "None",
+            "index": -1
+          },
+          "id": 2,
+          "offset": 8,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": true
+        },
+        {
+          "name": "field_byte",
+          "type": {
+            "baseType": "Byte",
+            "element": "None",
+            "index": -1
+          },
+          "id": 3,
+          "offset": 10,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_byte_negative_0x80",
+          "type": {
+            "baseType": "Byte",
+            "element": "None",
+            "index": -1
+          },
+          "id": 4,
+          "offset": 12,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": -128
+        },
+        {
+          "name": "field_ubyte",
+          "type": {
+            "baseType": "UByte",
+            "element": "None",
+            "index": -1
+          },
+          "id": 5,
+          "offset": 14,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_ubyte_0xFF",
+          "type": {
+            "baseType": "UByte",
+            "element": "None",
+            "index": -1
+          },
+          "id": 6,
+          "offset": 16,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 255
+        },
+        {
+          "name": "field_short",
+          "type": {
+            "baseType": "Short",
+            "element": "None",
+            "index": -1
+          },
+          "id": 7,
+          "offset": 18,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_short_negative_0x8000",
+          "type": {
+            "baseType": "Short",
+            "element": "None",
+            "index": -1
+          },
+          "id": 8,
+          "offset": 20,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": -32768
+        },
+        {
+          "name": "field_ushort",
+          "type": {
+            "baseType": "UShort",
+            "element": "None",
+            "index": -1
+          },
+          "id": 9,
+          "offset": 22,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_ushort_0xFFFF",
+          "type": {
+            "baseType": "UShort",
+            "element": "None",
+            "index": -1
+          },
+          "id": 10,
+          "offset": 24,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 65535
+        },
+        {
+          "name": "field_int",
+          "type": {
+            "baseType": "Int",
+            "element": "None",
+            "index": -1
+          },
+          "id": 11,
+          "offset": 26,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_int_negative_0x80000000",
+          "type": {
+            "baseType": "Int",
+            "element": "None",
+            "index": -1
+          },
+          "id": 12,
+          "offset": 28,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": -2147483648
+        },
+        {
+          "name": "field_uint",
+          "type": {
+            "baseType": "UInt",
+            "element": "None",
+            "index": -1
+          },
+          "id": 13,
+          "offset": 30,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_uint_0xFFFFFFFF",
+          "type": {
+            "baseType": "UInt",
+            "element": "None",
+            "index": -1
+          },
+          "id": 14,
+          "offset": 32,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 4294967295
+        },
+        {
+          "name": "field_long",
+          "type": {
+            "baseType": "Long",
+            "element": "None",
+            "index": -1
+          },
+          "id": 15,
+          "offset": 34,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        {
+          "name": "field_long_negative_0x8000000000000000",
+          "type": {
+            "baseType": "Long",
+            "element": "None",
+            "index": -1
+          },
+          "id": 16,
+          "offset": 36,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": {
+            "low": 0,
+            "high": -2147483648
+          }
+        },
+        {
+          "name": "field_ulong",
+          "type": {
+            "baseType": "ULong",
+            "element": "None",
+            "index": -1
+          },
+          "id": 17,
+          "offset": 38,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": {
+            "low": 0,
+            "high": 0
+          }
+        },
+        {
+          "name": "field_ulong_0xFFFFFFFFFFFFFFFF",
+          "type": {
+            "baseType": "ULong",
+            "element": "None",
+            "index": -1
+          },
+          "id": 18,
+          "offset": 40,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": {
+            "low": 4294967295,
+            "high": 4294967295
+          }
+        },
+        {
+          "name": "field_float",
+          "type": {
+            "baseType": "Float",
+            "element": "None",
+            "index": -1
+          },
+          "id": 19,
+          "offset": 42,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_float_pi",
+          "type": {
+            "baseType": "Float",
+            "element": "None",
+            "index": -1
+          },
+          "id": 20,
+          "offset": 44,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 3.14159265359
+        },
+        {
+          "name": "field_double",
+          "type": {
+            "baseType": "Double",
+            "element": "None",
+            "index": -1
+          },
+          "id": 21,
+          "offset": 46,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_double_pi",
+          "type": {
+            "baseType": "Double",
+            "element": "None",
+            "index": -1
+          },
+          "id": 22,
+          "offset": 48,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 3.14159265359
+        },
+        {
+          "name": "field_enum",
+          "type": {
+            "baseType": "UByte",
+            "element": "None",
+            "index": 0
+          },
+          "id": 23,
+          "offset": 50,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_enum_second",
+          "type": {
+            "baseType": "UByte",
+            "element": "None",
+            "index": 0
+          },
+          "id": 24,
+          "offset": 52,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 1
+        },
+        {
+          "name": "field_string",
+          "type": {
+            "baseType": "String",
+            "element": "None",
+            "index": -1
+          },
+          "id": 25,
+          "offset": 54,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_struct",
+          "type": {
+            "baseType": "Obj",
+            "element": "None",
+            "index": 4
+          },
+          "id": 26,
+          "offset": 56,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_example",
+          "type": {
+            "baseType": "Obj",
+            "element": "None",
+            "index": 2
+          },
+          "id": 27,
+          "offset": 58,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_bytes",
+          "type": {
+            "baseType": "Vector",
+            "element": "Byte",
+            "index": -1
+          },
+          "id": 28,
+          "offset": 60,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_shorts",
+          "type": {
+            "baseType": "Vector",
+            "element": "Short",
+            "index": -1
+          },
+          "id": 29,
+          "offset": 62,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_ints",
+          "type": {
+            "baseType": "Vector",
+            "element": "Int",
+            "index": -1
+          },
+          "id": 30,
+          "offset": 64,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_longs",
+          "type": {
+            "baseType": "Vector",
+            "element": "Long",
+            "index": -1
+          },
+          "id": 31,
+          "offset": 66,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_floats",
+          "type": {
+            "baseType": "Vector",
+            "element": "Float",
+            "index": -1
+          },
+          "id": 32,
+          "offset": 68,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_doubles",
+          "type": {
+            "baseType": "Vector",
+            "element": "Double",
+            "index": -1
+          },
+          "id": 33,
+          "offset": 70,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_enums",
+          "type": {
+            "baseType": "Vector",
+            "element": "UByte",
+            "index": 0
+          },
+          "id": 34,
+          "offset": 72,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_strings",
+          "type": {
+            "baseType": "Vector",
+            "element": "String",
+            "index": -1
+          },
+          "id": 35,
+          "offset": 74,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_structs",
+          "type": {
+            "baseType": "Vector",
+            "element": "Obj",
+            "index": 3
+          },
+          "id": 36,
+          "offset": 76,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_examples",
+          "type": {
+            "baseType": "Vector",
+            "element": "Obj",
+            "index": 2
+          },
+          "id": 37,
+          "offset": 78,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_deprecated",
+          "type": {
+            "baseType": "String",
+            "element": "None",
+            "index": -1
+          },
+          "id": 38,
+          "offset": 80,
+          "deprecated": true,
+          "required": false,
+          "key": false,
+          "default": null
+        },
+        {
+          "name": "field_required",
+          "type": {
+            "baseType": "String",
+            "element": "None",
+            "index": -1
+          },
+          "id": 39,
+          "offset": 82,
+          "deprecated": false,
+          "required": true,
+          "key": false,
+          "default": null
+        }
+      ]
+    },
+    {
+      "name": "Nested",
+      "isStruct": true,
+      "minalign": 4,
+      "bytesize": 8,
+      "fields": [
+        {
+          "name": "x",
+          "type": {
+            "baseType": "Float",
+            "element": "None",
+            "index": -1
+          },
+          "id": 0,
+          "offset": 0,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "y",
+          "type": {
+            "baseType": "Float",
+            "element": "None",
+            "index": -1
+          },
+          "id": 1,
+          "offset": 4,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        }
+      ]
+    },
+    {
+      "name": "Struct",
+      "isStruct": true,
+      "minalign": 8,
+      "bytesize": 40,
+      "fields": [
+        {
+          "name": "field_bool",
+          "type": {
+            "baseType": "Bool",
+            "element": "None",
+            "index": -1
+          },
+          "id": 0,
+          "offset": 0,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": false
+        },
+        {
+          "name": "field_byte",
+          "type": {
+            "baseType": "Byte",
+            "element": "None",
+            "index": -1
+          },
+          "id": 1,
+          "offset": 1,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_short",
+          "type": {
+            "baseType": "Short",
+            "element": "None",
+            "index": -1
+          },
+          "id": 2,
+          "offset": 2,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_int",
+          "type": {
+            "baseType": "Int",
+            "element": "None",
+            "index": -1
+          },
+          "id": 3,
+          "offset": 4,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_float",
+          "type": {
+            "baseType": "Float",
+            "element": "None",
+            "index": -1
+          },
+          "id": 4,
+          "offset": 8,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_double",
+          "type": {
+            "baseType": "Double",
+            "element": "None",
+            "index": -1
+          },
+          "id": 5,
+          "offset": 16,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_enum",
+          "type": {
+            "baseType": "UByte",
+            "element": "None",
+            "index": 0
+          },
+          "id": 6,
+          "offset": 24,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": 0
+        },
+        {
+          "name": "field_nested",
+          "type": {
+            "baseType": "Obj",
+            "element": "None",
+            "index": 3
+          },
+          "id": 7,
+          "offset": 28,
+          "deprecated": false,
+          "required": false,
+          "key": false,
+          "default": null
+        }
+      ]
+    }
+  ],
+  "enums": [
+    {
+      "name": "Enum",
+      "is_union": false,
+      "underlying_type": {
+        "baseType": "UByte",
+        "element": "None",
+        "index": 0
+      },
+      "values": [
+        {
+          "name": "FIRST",
+          "value": 0,
+          "object": null
+        },
+        {
+          "name": "SECOND",
+          "value": 1,
+          "object": null
+        }
+      ]
+    },
+    {
+      "name": "Union",
+      "is_union": true,
+      "underlying_type": {
+        "baseType": "UType",
+        "element": "None",
+        "index": 1
+      },
+      "values": [
+        {
+          "name": "NONE",
+          "value": 0,
+          "object": null
+        },
+        {
+          "name": "A",
+          "value": 1,
+          "object": {
+            "name": "A",
+            "isStruct": false,
+            "minalign": 1,
+            "bytesize": 0,
+            "fields": []
+          }
+        },
+        {
+          "name": "B",
+          "value": 2,
+          "object": {
+            "name": "B",
+            "isStruct": false,
+            "minalign": 1,
+            "bytesize": 0,
+            "fields": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "text": "unicode_test",
+  "vector_tables": [
+    {
+      "text": "Цлїςσδε",
+      "vector_tables": [],
+      "vector_strings": []
+    },
+    {
+      "text": "ﾌﾑｱﾑｶﾓｹﾓ",
+      "vector_tables": [],
+      "vector_strings": []
+    },
+    {
+      "text": "フムヤムカモケモ",
+      "vector_tables": [],
+      "vector_strings": []
+    },
+    {
+      "text": "㊀㊁㊂㊃㊄",
+      "vector_tables": [],
+      "vector_strings": []
+    },
+    {
+      "text": "☳☶☲",
+      "vector_tables": [],
+      "vector_strings": []
+    },
+    {
+      "text": "𡇙𝌆",
+      "vector_tables": [],
+      "vector_strings": []
+    }
+  ],
+  "vector_strings": [
+    "Цлїςσδε",
+    "ﾌﾑｱﾑｶﾓｹﾓ",
+    "フムヤムカモケモ",
+    "㊀㊁㊂㊃㊄",
+    "☳☶☲",
+    "𡇙𝌆"
+  ]
+}

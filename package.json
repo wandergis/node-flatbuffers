@@ -1,4 +1,11 @@
 {
   "name": "flatbuffers",
-  "version": "0.0.1"
+  "version": "0.1.0",
+  "description": "An implementation of FlatBuffers in pure JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/test"
+  },
+  "author": "Evan Wallace",
+  "license": "Apache License, Version 2.0"
 }

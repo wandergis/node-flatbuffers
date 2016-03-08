@@ -1,0 +1,48 @@
+{
+  "field_required": "field_required",
+
+  "field_bool": true,
+
+  "field_byte": -100,
+  "field_ubyte": 200,
+
+  "field_short": -10000,
+  "field_ushort": 20000,
+
+  "field_int": -10000000,
+  "field_uint": 20000000,
+
+  "field_float": 2.718281828459045,
+  "field_double": 2.718281828459045,
+
+  "field_enum": "SECOND",
+  "field_string": "text",
+
+  "field_struct": {
+    "field_bool": false,
+    "field_byte": -100,
+    "field_short": -10000,
+    "field_int": -10000000,
+    "field_float": 2.718281828459045,
+    "field_double": 2.718281828459045,
+    "field_enum": "SECOND",
+    "field_nested": {
+      "x": 1.5,
+      "y": -0.5
+    }
+  },
+
+  "field_example": {
+    "field_required": "field_required"
+  },
+
+  "field_bytes": [101, 102, 103, -101, -102, -103],
+  "field_shorts": [10001, 10002, 10003, -10001, -10002, -10003],
+  "field_ints": [10000001, 10000002, 10000003, -10000001, -10000002, -10000003],
+  "field_floats": [1.5, -0.5],
+  "field_doubles": [1.5, -0.5],
+  "field_enums": ["FIRST", "SECOND"],
+  "field_strings": ["a", "b", "c"],
+  "field_structs": [{"x": 1.5, "y": -0.5}, {"x": -0.5, "y": 1.5}],
+  "field_examples": [{"field_required": "a"}, {"field_required": "b"}]
+}
