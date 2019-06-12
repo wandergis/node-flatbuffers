@@ -24,13 +24,13 @@ This is an implementation of [FlatBuffers](https://github.com/google/flatbuffers
 3. Install this library:
 
     ```
-    npm install flatbuffers
+    npm install node-fbs
     ```
 
 4. Use the library:
 
     ```
-    var flatbuffers = require('flatbuffers');
+    var flatbuffers = require('node-fbs');
     var fs = require('fs');
 
     var example = flatbuffers.compileSchema(fs.readFileSync('example.bfbs'));

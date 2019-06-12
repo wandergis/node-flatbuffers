@@ -1,7 +1,7 @@
 {
-  "name": "flatbuffers",
-  "version": "0.1.0",
-  "description": "An implementation of FlatBuffers in pure JavaScript",
+  "name": "node-fbs",
+  "version": "1.0.0",
+  "description": "An implementation of FlatBuffers in pure JavaScript forked from https://github.com/evanw/node-flatbuffers",
   "main": "src/index.js",
   "scripts": {
     "test": "node tests/test"
